@@ -1,0 +1,310 @@
+
+*{
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.banner{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    line-height: 0px;
+    color:white;
+}
+.banner i{
+    font-size: 15px;
+     margin-left: 20px;
+     color: white;
+}
+.banner a:first-of-type {
+    margin-left: 100px;
+}
+.banner a img{
+ height: 17px;
+ width: 25px;
+padding-top: 12px;
+ margin-left: 20px;
+}
+.banner p{
+    margin-left: 370px;
+    color: white;
+    line-height: -20px;
+  
+}
+.banner input{
+    margin-top: -16px;
+    float: right;
+margin-left: 5px;
+}
+.banner input:first-of-type{
+    margin-right:100px;
+}
+.nav{
+    height: 75px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: inline-block;
+  
+}
+.nav img{
+height: 50px;
+width: 15%;
+padding-top: 12px;
+margin-left: 100px;
+}
+.nav ul{
+   float:right; 
+}
+.nav ul li {
+  display: inline-block;
+  padding: 30px 25px;
+}
+.nav ul:first-of-type {
+    margin-right: 117px;
+}
+.nav ul li a{
+    font-weight: 600px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    font-size: 15px;
+}
+.nav ul li a:hover{
+    color: white;
+    border-radius:30%;
+    background-color: blue;
+    padding: 10px;
+}   
+
+.slider{
+    height: 500px;
+    width: 100%;
+    background-color:violet;
+}
+  
+  .slider img {
+      width: 100%;
+      height: 100%;
+  }
+  
+
+.slide{
+height: 30px;
+width: 80%;
+background-color: cornflowerblue;   
+margin-top: 20px;
+margin:auto;
+color: white;
+line-height:30px ;
+}
+.green{
+    color: chartreuse;
+}
+.blue{
+    color: darkblue;
+}
+.section{
+height: 600px;
+width: 100%;
+background-color: whitesmoke;
+}
+.section h1{
+
+    text-align: center;
+    font-size: 40px;
+    margin:auto;
+    line-height: 120px;
+}
+.section h2{
+    text-align: center;
+    color: rgb(69, 146, 69);
+    margin-top: -30px;
+    font-weight: bolder;
+}
+.section p{
+    text-align: justify;
+    margin-left: 170px;
+    margin-right: 170px;
+    color: grey;
+    font-size: 16px;
+    word-spacing: 3px;
+}
+.counter{
+height: 300px;
+width: 100%;
+background-color:cornflowerblue;
+color: white;
+font-family: 'Sitka Display';
+font-size: 28px;
+}
+.counter div{
+height:250px;
+width: 21%;
+float: left;
+margin-left: 10px;
+margin-top: 22px;
+text-align: center;
+}
+.counter div:first-of-type{
+    margin-left: 100px;
+} 
+.counter div img{
+height: 50px;
+width: 70px;
+margin-top: 40px;
+}
+.counter div h5{
+
+    font-size: 17px;
+}
+.info{
+    height: 600px;
+    width: 100%;
+    background-color:whitesmoke;
+    text-align: center;
+    }
+    .info h1{
+line-height: 120px;  
+  }
+  .info h2{
+    text-align: center;
+    color: rgb(69, 146, 69);
+    margin-top: -30px;
+    font-weight: bolder;
+}
+.info div{
+    height:200px;
+    width: 25%;
+    float: left;
+    margin-left: 25px;
+    margin-top: 22px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 10px  whitesmoke;
+    }
+    .info div:first-of-type{
+        margin-left: 150px;
+    }
+#info{
+    margin-left: 150px; 
+}
+.info div img{
+    height: 50px;
+    width: 70px;
+    margin-top: 40px;
+    }
+    .info div h2{
+        color: cornflowerblue;
+        margin-top: 30px;
+    }
+    .detail{
+            height: 700px;
+            width: 90%;
+            background-color:white;
+          
+    }
+    .detail h1{
+        text-align: center;
+        line-height: 120px;
+    }
+    .detail h2{
+        text-align: center;
+       color: rgb(69, 146, 69);
+       margin-top: -30px;
+       font-weight: bolder;
+    }
+
+           .detail div img{
+            height: 130px;
+            width: 200px;
+            margin-top: 20px;
+            float: left;
+            margin-left: 5px;
+            }
+    
+    .projects{
+        height: 300px;
+        width: 65%;
+        background-color: white;
+        float: left;
+    }
+    .projects h2 , .events h2{
+
+        color:blue; 
+        font-family: serif;
+         line-height:60px; 
+         margin-left: 15px;
+    }
+    .projects h3 , .events h3{  
+        margin-top: -20px; margin-left: 15px;}
+    .projects div{
+        height: 80px;
+        width: 42%;
+        background-color: whitesmoke;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    }
+    .projects div:first-of-type{
+        margin-left:70px;
+    }
+.projects div img{
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 40px;
+}
+.projects span{
+    margin-left: 15px;
+     font-size: 24px; 
+     font-family: serif;
+      color: cornflowerblue; 
+      font-weight: bolder;
+}
+ .events{
+        height: 300px;
+        width: 25%;
+        background-color: white;
+        float: left;
+         }
+.events p{
+
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+    
+}
+
+    .footer{
+            height: 300px;
+            width: 100%;
+            background-color:black ;}
+         
+         .footer div{
+            height: 250px;
+            width: 500px;
+            margin-left: 100px;
+            margin-right: 100px;
+            color: white;
+            float: left;
+            margin-top: 20px;
+         }
+         .footer div h3{
+            color: grey;
+             margin-left: 40px;
+             font-size: 15px;
+         }
+         .footer div h3 i{
+            color: rgb(69, 146, 69);
+         }
+         .footer div  a i{
+             font-size: 20px;
+             margin-left: 10px;
+             margin-top: 10px;
+             color: white;    
+         }
+
+
+
+
+
